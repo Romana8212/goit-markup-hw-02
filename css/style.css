@@ -1,7 +1,62 @@
 :root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
   --accent-color: #2196f3;
   --accent-background: #2196f3;
 }
+
+body {
+  font-family: var(--main-font);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+image {
+  display: block;
+}
+
+.address {
+  font-style: normal;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  min-width: 1600px;
+}
+
+/*  COMPONENTS */
 
 .company-logo,
 .header-nav-list-link:hover,
@@ -16,6 +71,8 @@
 .filters-modal-btn:focus {
   background: var(--accent-color);
 }
+
+/*  END COMPONENTS */
 
 /*header*/
 
